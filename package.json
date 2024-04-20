@@ -1,0 +1,17 @@
+{
+  "name": "sdlogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
+}
