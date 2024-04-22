@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test":"jest"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "connect-mongo": "^5.1.0",
     "express": "^4.19.2",
     "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
